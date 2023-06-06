@@ -1,0 +1,80 @@
+body {
+    /* background-image: url(./img/r5.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteiner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.col-50 {
+    width: 60%;
+}
+
+.col-30 {
+    width: 40%;
+}
+
+.row {
+    display: flex;
+}
+
+.jcs {
+    justify-content: space-between;
+}
+
+legend {
+    color: darkblue;
+}
+
+fieldset {
+    background-color: rgba(119, 119, 198, 0.562);
+    transition: 1s;
+}
+
+fieldset:hover {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+
+
+label,
+option,
+input,
+select,
+legend,
+button {
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+legend {
+    text-align: center;
+}
+
+table {
+    border-spacing: 15px;
+}
+
+button {
+    text-align: center;
+}
+
+
+#slot1,
+#slot,
+#time1,
+#time {
+    display: none;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+
+
